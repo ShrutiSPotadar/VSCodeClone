@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.body-class{
+    background-color: black;
+    /* margin:0;
+    padding:0; */
+}
+
+.header-subclass{
+    display: flex;
+    align-items: center;
+}
+
+.header-class{
+    padding: 25px 55px;
+}
+
+.logo-img-class{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.header-title{
+    color: white;
+    /* background-color: red; */
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.header-link-class{
+    color: grey;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 2px 3px;
+}
+
+.box-1-class {
+    display: flex;
+    align-items: center;
+}
+
+.header-main-link-class {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-evenly;
+}
