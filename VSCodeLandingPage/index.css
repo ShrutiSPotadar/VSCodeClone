@@ -16,6 +16,8 @@
 
 .header-class{
     padding: 25px 55px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo-img-class{
@@ -35,6 +37,7 @@
     font-size: 1rem;
     font-family: sans-serif;
     padding: 2px 3px;
+    margin-left: 10px;
 }
 
 .box-1-class {
@@ -47,4 +50,62 @@
     flex-direction: row;
     width: 30%;
     justify-content: space-evenly;
+}
+
+.brightness-img-class{
+    width: 25px;
+}
+
+.box-2-class{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    width: 90px;
+    height: 30px;
+    background-color: #0069b9;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-class{
+    margin: 0 18px;
+}
+
+.input-class{
+    padding: 6px 16px;
+     background-color: black;   /* your desired background */
+    color: white;              /* text color for readability */
+    border: 1px solid gray;    /* flat border instead of OS beveled */
+    border-radius: 5px;        /* optional: rounded corners */
+    outline: none;  
+}
+
+.body-version-class{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    font-family: sans-serif;
+}
+
+.span-class{
+    color: #0069b9;
+    text-decoration: underline;
+}
+
+.sub-section1-div{
+    color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.section-class{
+    display: flex;
+    padding: 64px 5% 100px 5%;
+    background-color: red;
+    justify-content: center;
 }
