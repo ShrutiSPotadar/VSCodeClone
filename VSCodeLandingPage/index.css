@@ -104,8 +104,39 @@
 }
 
 .section-class{
-    display: flex;
+    display: inline-block;
     padding: 64px 5% 100px 5%;
-    background-color: red;
+    /* background-color: red; */
     justify-content: center;
+}
+
+.sub-section1-text{
+    color: white;
+    background-color: #242424;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sub-section1-freetext{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+.button{
+    font-size: large !important;
+    width: 60% !important;
+    height: 47px !important;
+}
+
+.free-text{
+    font-size: 1rem;
+}
+
+.text{
+    font-size: small;
+}
+
+.span-text{
+    text-decoration: underline;
+    color: #0069b9;
 }
