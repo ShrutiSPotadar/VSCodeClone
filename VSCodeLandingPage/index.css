@@ -122,10 +122,12 @@
     font-family: sans-serif;
 }
 
-.button{
+.section1-button{
     font-size: large !important;
     width: 60% !important;
     height: 47px !important;
+    background-color: #0069b9;
+    border-radius: 5px;
 }
 
 .free-text{
