@@ -152,7 +152,13 @@
     margin-left: 30%;
 }
 
-.sub-section2-div{
+.main-section2-class{
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 5% 100px 5%;
+}
+
+.sub1-section2-div{
     color: white;
     font-size: x-large;
     font-family: sans-serif;
@@ -164,4 +170,20 @@
     margin-top: 10px;
     color: rgb(171, 170, 170);
     font-weight: 600;
+}
+
+.sub2-section2-div{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    width: 50%;
+}
+
+.icon-img-class{
+    height: 45px;
+}
+
+.icon-title{
+    display: inline-flex;
+    color: grey;
+    align-items: center;
 }
