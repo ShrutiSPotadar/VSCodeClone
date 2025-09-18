@@ -259,3 +259,23 @@
 .footer-class{
     padding: 30px 66px;
 }
+
+.footer-subclass{
+    display: flex;
+    gap: 28px;
+}
+
+.footer-logo-img-window{
+    float: inline-end;
+}
+
+.footer-text{
+    color: grey;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.footer-text-main-class{
+    display: flex;
+    gap: 26px;
+}
