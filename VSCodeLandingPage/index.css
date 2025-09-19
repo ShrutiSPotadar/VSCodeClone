@@ -256,13 +256,18 @@
     margin: 0px;
 }
 
+
+.image2{
+    margin-left: 30px;
+}
+
 .footer-class{
     padding: 30px 66px;
 }
 
 .footer-subclass{
     display: flex;
-    gap: 28px;
+    justify-content: space-between;
 }
 
 .footer-logo-img-window{
