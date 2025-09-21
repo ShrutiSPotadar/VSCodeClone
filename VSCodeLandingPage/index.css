@@ -197,11 +197,12 @@
 .main-section3-class{
     display: flex;
     justify-content: space-between;
-    padding: 64px 5% 100px 5%;
+    padding: 1% 5% 1% 5%;
 }
 
 .learn-more{
     margin-bottom: 10px;
+    color: #4daafc;
 }
 
 .sub1-section3-div{
@@ -249,6 +250,8 @@
 
 .extension-marketplace{
     color: white;
+    margin-left: 62%;
+    margin-top: 16px;
 }
 
 .footer-logo-img-class{
@@ -283,4 +286,10 @@
 .footer-text-main-class{
     display: flex;
     gap: 26px;
+}
+
+.extension-span-class{
+    color: #4daafc;
+    text-decoration: underline;
+    cursor: pointer;
 }
